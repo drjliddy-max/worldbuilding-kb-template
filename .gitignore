@@ -4,10 +4,9 @@
 .LSOverride
 Icon?
 
-# Obsidian — keep shareable config, ignore per-machine/volatile state
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
+# Obsidian — local app config, per-machine workspace state, and third-party
+# plugin code. Users install Dataview themselves (see README / GETTING_STARTED).
+.obsidian/
 .trash/
 
 # Editor / temp
