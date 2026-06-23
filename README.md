@@ -21,6 +21,12 @@ This template ships with **structure and rules but no world data.** You bring yo
 
 *The connected cluster up top is the demo world ("Valdris" — Aldric Thorne, Frostmere Keep, the Crown of Valdris…); the lower web is the domain MOCs (CHARACTERS, GEOGRAPHY, HISTORY…) all wired through `gaps` and `wikilinks`. Delete the demo and your own world grows in its place.*
 
+The discipline rules become *live queries* — Dataview turns "show me everything unverified / missing a source / in open conflict" into dashboards that update themselves:
+
+![Obsidian HOME dashboards — Dataview tables listing unverified entities, entities missing sources, and open conflicts](docs/obsidian-dashboards.png)
+
+*Source-citation and conflict-flagging aren't just guidelines here — they're queryable. At a glance you can see what still needs verifying and what conflicts await a ruling.*
+
 **The output** — when the canon is solid, the built-in publishing layer renders a player-facing guide:
 
 ![A generated player's guide produced from the knowledge base — demo world "Valdris"](docs/published-home.png)
