@@ -17,7 +17,11 @@ This template ships with **structure and rules but no world data.** You bring yo
 
 ![A generated player's guide produced from the knowledge base — demo world "Valdris"](docs/published-home.png)
 
-*The built-in publishing layer turns your sourced canon into a player-facing guide like this — showing only what players are allowed to know (note the KNOWN vs. RUMORED markers), while GM secrets stay in the vault. The world above is throwaway demo content.*
+*The built-in publishing layer turns your sourced canon into a player-facing guide like this — showing only what players are allowed to know (note the KNOWN vs. RUMORED markers), while GM secrets stay in the vault. The world shown is throwaway demo content.*
+
+![An interior page of the generated guide — geography, with a holdings table and status tags](docs/published-geography.png)
+
+*Every domain gets its own page. Tables, status tags, and the same known/rumored discipline carry through — all generated from the source-cited notes in the vault.*
 
 ## Who it's for
 
