@@ -15,9 +15,17 @@ It is, quite literally, a relational database for a fictional world, built as an
 
 This template ships with **structure and rules but no world data.** You bring your own world.
 
+**Inside the vault** — every note is a row, every `[[wikilink]]` an edge; Obsidian's graph view *is* your world's entity-relationship diagram:
+
+![Obsidian graph view of the vault — the demo world's entities, domain MOCs, and templates as an interconnected graph](docs/obsidian-graph.png)
+
+*The connected cluster up top is the demo world ("Valdris" — Aldric Thorne, Frostmere Keep, the Crown of Valdris…); the lower web is the domain MOCs (CHARACTERS, GEOGRAPHY, HISTORY…) all wired through `gaps` and `wikilinks`. Delete the demo and your own world grows in its place.*
+
+**The output** — when the canon is solid, the built-in publishing layer renders a player-facing guide:
+
 ![A generated player's guide produced from the knowledge base — demo world "Valdris"](docs/published-home.png)
 
-*The built-in publishing layer turns your sourced canon into a player-facing guide like this — showing only what players are allowed to know (note the KNOWN vs. RUMORED markers), while GM secrets stay in the vault. The world shown is throwaway demo content.*
+*Showing only what players are allowed to know (note the KNOWN vs. RUMORED markers), while GM secrets stay in the vault. The world shown is throwaway demo content.*
 
 ![An interior page of the generated guide — geography, with a holdings table and status tags](docs/published-geography.png)
 
