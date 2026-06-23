@@ -15,6 +15,10 @@ It is, quite literally, a relational database for a fictional world, built as an
 
 This template ships with **structure and rules but no world data.** You bring your own world.
 
+![A generated player's guide produced from the knowledge base — demo world "Valdris"](docs/published-home.png)
+
+*The built-in publishing layer turns your sourced canon into a player-facing guide like this — showing only what players are allowed to know (note the KNOWN vs. RUMORED markers), while GM secrets stay in the vault. The world above is throwaway demo content.*
+
 ## Who it's for
 
 Game masters, worldbuilders, and authors who have a *lot* of scattered campaign material (PDFs, notes, spreadsheets, half-remembered rulings) and want a single, trustworthy, navigable canon they can grow without it contradicting itself — and eventually publish for players or readers. It works equally well for D&D, Pathfinder, any other system, or system-agnostic fiction.
