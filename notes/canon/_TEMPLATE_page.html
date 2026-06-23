@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Copy this file to create a player-facing domain page (geography.html, history.html, …).
+     PLAYER-FACING: include only what players may know. Pull the content from the matching
+     domain in entities/ + the knowledge/ MOC, then strip GM-only context. -->
+<title>{{Page title}} — {{WORLD_NAME}}</title>
+<link rel="stylesheet" href="canon.css">
+</head>
+<body>
+
+<nav class="top">
+  <a href="index.html">Home</a>
+  <a href="geography.html">Geography</a>
+  <a href="history.html">History</a>
+  <a href="pantheon.html">Pantheon</a>
+  <a href="factions.html">Factions</a>
+  <a href="characters.html">Figures</a>
+  <a href="magic.html">Magic</a>
+  <a href="glossary.html">Glossary</a>
+  <!-- mark the current page's link with class="current" -->
+</nav>
+
+<h1>{{Page title}}</h1>
+<p class="stamp">{{One-line orientation.}} Last updated {{DATE}}.</p>
+
+<div class="intro">
+  <p>{{Short in-world introduction to this topic as a player would encounter it.}}</p>
+</div>
+
+<h2>{{Section}}</h2>
+<p>{{Player-knowable prose.}}</p>
+
+<!-- Useful patterns:
+     <p class="lock">Established fact players know.</p>
+     <p class="open-q">A rumor / legend — true status hidden from players.</p>
+     <span class="dead">Slain</span>  ·  <span class="tag tag-active">active</span>
+     <table>…</table> for gazetteers, rosters, timelines
+     <div class="cards"><div class="card">…</div></div> for grids of places/figures
+-->
+
+<footer>
+  {{WORLD_NAME}} — player's guide.
+</footer>
+
+</body>
+</html>

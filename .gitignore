@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Obsidian — keep shareable config, ignore per-machine/volatile state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Editor / temp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.tmp
+Thumbs.db

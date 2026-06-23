@@ -1,0 +1,95 @@
+/* {{WORLD_NAME}} Canon — shared styles for the player-facing publishing layer.
+   Dark warm parchment theme. No dependencies, no build step.
+   Retheme by editing the :root variables below. */
+
+:root {
+  --bg: #1a1814;
+  --panel: #24211c;
+  --panel-alt: #2c2823;
+  --text: #e8e2d5;
+  --text-dim: #a39d8e;
+  --accent: #c9a86a;
+  --accent-dim: #8a7549;
+  --border: #3a342b;
+  --link: #d4b87a;
+  --link-hover: #f0d595;
+  --open: #c97f3a;
+  --death: #a04545;
+  --good: #6a9a6a;
+  --new: #6a9a8a;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  line-height: 1.55;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
+
+a { color: var(--link); text-decoration: none; border-bottom: 1px dotted var(--accent-dim); }
+a:hover { color: var(--link-hover); border-bottom-style: solid; }
+
+h1 { color: var(--accent); border-bottom: 2px solid var(--accent-dim); padding-bottom: 0.4rem; margin: 0 0 0.4rem; font-size: 1.85rem; }
+h2 { color: var(--accent); margin: 2rem 0 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; font-size: 1.35rem; }
+h3 { color: var(--link); margin: 1.3rem 0 0.3rem; font-size: 1.1rem; }
+h4 { color: var(--text); margin: 1rem 0 0.3rem; font-size: 1rem; }
+
+nav.top {
+  position: sticky; top: 0; background: var(--bg);
+  padding: 0.6rem 2rem 0.7rem; border-bottom: 1px solid var(--border);
+  margin: -1.5rem -2rem 1.2rem; z-index: 100; font-size: 0.85rem;
+}
+nav.top a { color: var(--text-dim); border-bottom: none; margin-right: 0.9rem; white-space: nowrap; }
+nav.top a:hover { color: var(--link); }
+nav.top a.current { color: var(--accent); font-weight: bold; }
+
+.stamp { color: var(--text-dim); font-size: 0.82rem; font-style: italic; margin-bottom: 1.2rem; }
+
+.intro {
+  background: var(--panel-alt); border-left: 4px solid var(--accent);
+  padding: 0.8rem 1rem; margin: 1rem 0 1.5rem; border-radius: 0 4px 4px 0;
+}
+.intro p { margin: 0.25rem 0; }
+
+p { margin: 0.6rem 0; }
+ul, ol { margin: 0.4rem 0 0.8rem; padding-left: 1.6rem; }
+li { margin: 0.18rem 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1.2rem; background: var(--panel); font-size: 0.93rem; }
+th, td { border: 1px solid var(--border); padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; }
+th { background: var(--panel-alt); color: var(--accent); font-weight: bold; }
+tr:hover td { background: var(--panel-alt); }
+
+code { background: #14120e; padding: 0.1rem 0.35rem; border-radius: 2px; font-family: "Menlo", "Monaco", monospace; font-size: 0.85em; color: var(--link); }
+
+blockquote { border-left: 3px solid var(--accent-dim); margin: 0.8rem 0; padding: 0.4rem 1rem; color: var(--text-dim); font-style: italic; background: var(--panel); }
+
+.src { color: var(--text-dim); font-size: 0.8rem; font-style: italic; }
+
+/* status callouts — reuse for "what players know vs. rumor", etc. */
+.open-q, .drift { background: var(--panel); border-left: 3px solid var(--open); padding: 0.5rem 0.8rem; margin: 0.6rem 0; border-radius: 0 3px 3px 0; font-size: 0.92rem; }
+.open-q::before { content: "RUMORED: "; color: var(--open); font-weight: bold; font-size: 0.8rem; letter-spacing: 0.05em; }
+.lock { background: var(--panel); border-left: 3px solid var(--good); padding: 0.5rem 0.8rem; margin: 0.6rem 0; border-radius: 0 3px 3px 0; }
+.lock::before { content: "KNOWN: "; color: var(--good); font-weight: bold; font-size: 0.8rem; letter-spacing: 0.05em; }
+
+.dead, .death { color: var(--death); font-weight: bold; }
+
+.tag { display: inline-block; font-family: "Menlo", monospace; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 2px; margin-left: 0.4rem; font-weight: bold; vertical-align: middle; }
+.tag-new { background: var(--new); color: var(--bg); }
+.tag-dead { background: var(--death); color: var(--bg); }
+.tag-active { background: var(--good); color: var(--bg); }
+.tag-stub { background: var(--accent-dim); color: var(--bg); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem; margin: 1rem 0; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 0.7rem 0.9rem; }
+.card h3 { margin: 0 0 0.3rem; font-size: 1rem; }
+.card p { margin: 0.2rem 0; font-size: 0.88rem; color: var(--text-dim); }
+.card a { display: block; margin-top: 0.4rem; font-size: 0.85rem; }
+
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.82rem; text-align: center; }
