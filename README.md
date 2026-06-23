@@ -50,6 +50,12 @@ This system fixes that by making three promises:
 
 The payoff: a canon you can trust enough to hand to players, render as a wiki, or write a novel from.
 
+### Where this shines (and where it's optional)
+
+This template is at its strongest when you have a **large, messy, contradictory body of *existing* lore** — years of docs, multiple authors, renamed-three-times places, rulings that conflict — and you need to **reconcile it into one trustworthy canon**. That reconciliation problem is exactly what the source-citation and conflict-flagging discipline is built for, and it's what most "worldbuilding template" repos don't address at all.
+
+If you're instead **starting a world from scratch**, you *are* the source of truth, so the heavy citation discipline is optional — lean on the structure (entities, links, dashboards, publishing) and dial the rigor up only as your canon grows and starts to contradict itself. The rules scale with you; they don't gate you on day one.
+
 ---
 
 ## What's in the box
@@ -70,6 +76,8 @@ The payoff: a canon you can trust enough to hand to players, render as a wiki, o
 ---
 
 ## Quick start (≈ 30 minutes to a working skeleton)
+
+> New to GitHub, Obsidian, or AI assistants? **[GETTING_STARTED.md](GETTING_STARTED.md)** is the hold-your-hand version — account signup through your first ingested source doc. The condensed steps below assume you're comfortable with the tools.
 
 1. **Copy this whole folder** and rename it for your world (e.g. `aurelia-kb`).
 2. **Open it as an Obsidian vault** ("Open folder as vault" → pick the folder) and install the **Dataview** community plugin (Settings → Community plugins → Browse → Dataview). Without Dataview the vault still works as plain Markdown — the query blocks just render as code instead of tables. Then open `HOME.md`.
