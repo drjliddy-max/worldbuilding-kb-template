@@ -26,17 +26,17 @@ A weathered commander who held the northern frontier after the watch was disband
 ## Key facts
 
 - Refused the crown's order to abandon the wall and has held it with volunteers since. (source: ExampleWorldBible.pdf p.44)
-- Carries a relationship to [[Frostmere Keep]] as its de facto castellan. (owner ruling 2026-01-01)
+- Carries a relationship to [[_EXAMPLE_frostmere-keep|Frostmere Keep]] as its de facto castellan. (owner ruling 2026-01-01)
 
 ## Current state (as of Year 312)
 
-Alive; holds [[Frostmere Keep]] with a thinning garrison. (state-of-record: Example Campaign Calendar, Year 312)
+Alive; holds [[_EXAMPLE_frostmere-keep|Frostmere Keep]] with a thinning garrison. (state-of-record: Example Campaign Calendar, Year 312)
 
 ## Relationships
 
-- Castellan of [[Frostmere Keep]]
-- Estranged from [[The Crown of Valdris]]
-- Mentor to [[a player character]]
+- Castellan of [[_EXAMPLE_frostmere-keep|Frostmere Keep]]
+- Estranged from [[_EXAMPLE_crown-of-valdris|The Crown of Valdris]]
+- Mentor to [[_EXAMPLE_kestrel-vane|Kestrel Vane]]
 
 ## Variants / aka
 

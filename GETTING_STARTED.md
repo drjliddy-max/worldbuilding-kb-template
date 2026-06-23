@@ -35,7 +35,7 @@ The AI writes the notes → Obsidian displays them. **GitHub** is just where you
 5. Install **[Obsidian](https://obsidian.md)**.
 6. **“Open folder as vault”** → pick your unzipped `my-world` folder.
 7. Enable the dashboards: **Settings → Community plugins →** turn on community plugins → **Browse →** search **“Dataview” →** Install → Enable.
-8. Open **`HOME.md`**. The dashboards should render — there's one example entry included so nothing looks empty.
+8. Open **`HOME.md`**. The dashboards should render — a small connected sample world (the `_EXAMPLE_*` notes, the realm of "Valdris") ships with the vault so nothing looks empty. Try **Open graph view** too, to see how the notes link up.
 
 > Without the Dataview plugin the vault still works as plain Markdown; the dashboard blocks just show as code instead of tables.
 
@@ -61,7 +61,7 @@ Any file-capable AI assistant works — the rules live in the folder, not in the
 12. Work **one document at a time**:
     > *“Read [this doc]. For each character, place, faction, item, etc., create a note from `entities/_TEMPLATE_ENTITY.md`, fill in the details with a citation for each fact, link related things with `[[wikilinks]]`, and log any contradictions as notes in the `gaps/` folder. Ask me about anything that conflicts.”*
 13. Flip to Obsidian and watch `HOME.md` and the graph fill in.
-14. Once you've seen a finished note, **delete the demo** `entities/_EXAMPLE_aldric-thorne.md`. (Keep the `_TEMPLATE_` files — those are your blanks.)
+14. Once you've seen how a finished note looks, **delete the whole demo world** — every `_EXAMPLE_*` file in `entities/` and `gaps/`. (Keep the `_TEMPLATE_` files — those are your blanks.)
 
 ---
 
