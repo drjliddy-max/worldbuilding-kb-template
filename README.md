@@ -145,5 +145,5 @@ A world is only as believable as it is consistent, and consistency at scale is a
 
 ## License & contributing
 
-- **License:** [MIT](LICENSE) — use it, copy it, modify it, build your world freely.
+- **License:** Proprietary — All Rights Reserved. See [LICENSE](LICENSE).
 - **Contributing:** see [CONTRIBUTING.md](CONTRIBUTING.md). You don't need to contribute back to use the template; improvements to the scaffold itself are welcome.
